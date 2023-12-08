@@ -1,2 +1,2 @@
 # ML
-PolynomialRegression.py - Polynomial Regression (Data - PolynomialData.csv)
+PolynomialRegression.py - Polynomial Regression (Data - Data/PolynomialData.csv)
