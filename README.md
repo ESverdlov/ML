@@ -1,3 +1,3 @@
 # ML
-PolynomialRegression.py - Polynomial Regression (Data - Data/PolynomialData.csv);
-SVM.py - SVM Regression (Data - Data/SVMRegression.csv = Data/PolynomialData.csv)
+PolynomialRegression.py - Polynomial Regression (Dataset - Data/PolynomialData.csv);
+SVM.py - SVM Regression (Dataset - Data/SVMRegression.csv = Data/PolynomialData.csv)
