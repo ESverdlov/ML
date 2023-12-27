@@ -104,7 +104,7 @@ clf = RandomForestClassifier(n_estimators = n_estimators, n_jobs = -1,
 clf.fit(X_Train, y_Train)
 y_pred = clf.predict(X_Test)
 
-# Confusion matrices and output
+# Confusion matrices, feature importance,  and output
 display_labels = ["Insufficient\nWeight", "Normal\nWeight", "Overweight\nLevel I",
                   "Overweight\nLevel II", "Obesity\nType I", "Obesity\nType II",
                   "Obesity\nType III"]
@@ -128,6 +128,15 @@ ConfusionMatrixDisplay.from_predictions(y_Test, y_pred,
                                            display_labels = display_labels, ax = ax[1], colorbar = False)
 plt.show()
 
+# Feature importance
+scores = []
+for score, name in zip(clf.feature_importances_,dataAll.columns):
+  scores.append([round(score, 2),  name])
+
+scores.sort(reverse = True)
+for item in scores:
+  print(item[0],item[1])
+  
 ## Output trees
 #feature_names = ['Gender', 'Age', 'Height', 'Weight', 'family_history_with_overweight', 'FAVC',
 #                  'FCVC', 'NCP', 'CAEC', 'SMOKE', 'CH2O', 'SCC', 'FAF', 'TUE', 'CALC', 'MTRANS']
