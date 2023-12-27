@@ -4,3 +4,5 @@ PolynomialRegression.py - Polynomial Regression (Dataset - Data/PolynomialData.c
 SVM.py - SVM Regression (Dataset - Data/SVMRegression.csv = Data/PolynomialData.csv);
 
 ObesityDataSet.py - DecisionTreeClassifier (Dataset - Data/ObesityDataSet.csv)
+
+ObesityRandomForest.py - RandomForestClassifier (Dataset - Data/ObesityDataSet.csv);
