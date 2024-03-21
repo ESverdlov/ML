@@ -10,3 +10,4 @@ ObesityRandomForest.py - RandomForestClassifier (Dataset - Data/ObesityDataSet.c
 PCA_apple_stock.py - PCA (Dataset - PCA_apple_stock.csv);
 
 Captcha_seq.py - 5 моделей для распознавания  CAPTCHA (267500 изображений) - точность равна 0.95;
+Captcha_fun.py - модель(model_CAPTCHA_fun.png) для распознавания  CAPTCHA (267500 изображений) - точность равна 0.99;
